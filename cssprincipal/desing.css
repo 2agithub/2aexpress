@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    background-color: #F9F9F9;
+   
+}
+
+/*---------------------------------------------HEADER*/
+
+header{
+    background-color: #F9F9F9;
+    height: 3vh;
+    display: flex;
+}
+.horario{
+    
+    width: 50%;
+}
+.horario p{
+    color: #333333;
+    font-size: small;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.bem-vindo{
+    
+    width: 50%;
+    
+}
+.bem-vindo p{
+    color: #333333;
+    font-size: small;
+    margin-top: 2px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
+/*---------------------------------------------NAV*/
+#barra-nav{
+    background-color: #4A75C5;
+    height: 2px;
+}
+
+.search{
+    background-color: #FFFFFF;
+    
+    height: 5.2vh;
+    display: flex;
+}
+.nav-bar{
+    
+    width: 50%;
+    
+    padding-top: 10px;
+}
+
+#barra-nav2{
+   
+        background-color: #F1F1F1;
+        height: 2px;
+        margin-bottom: 2%;
+}    
+#homer{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4A75C5;
+}
+
+
+.nav-bar a{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3E3E3E;
+    text-decoration: none;
+}
+.nav-bar2{
+    
+    display: flex;
+    width: 50%;
+    
+    justify-content: end;
+}
+.nav-bar2 a{
+   
+    
+    margin-right: 40px;
+    padding-top: 12px;
+    color: #3E3E3E;
+
+    text-decoration: none;
+}
+.nav-bar3{
+    padding-top: 10px;
+}
+.nav-bar3 a{
+    padding-top:20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3E3E3E;
+    text-decoration: none;
+}
+
+/*---------------------------------------------MAIN*/
+
+main{
+    
+    width: 93%;
+    margin: auto;
+    margin-top: 15%;
+    height: 80vh;
+}    
+    
+
+.main-principal{
+   
+    width: 63.5%;
+    height: 70vh;
+    margin-left: 1%;
+    
+}
+.main-principal, h1{
+    
+    color: #3E3E3E;
+    margin-top: 10%;
+    font-size: xx-large;
+}
+.main-txt{
+    display: flex;
+    text-align: center;
+    color: #333333;
+    margin-top: 3%;
+    
+}
+.txt-right{
+    color:#333333;
+    padding: 20px;
+    width: 50%;
+   
+}
+.txt-left{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    font-size: 1.5em;
+   text-align: justify;
+   align-items: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------FOOTER*/
+footer{
+   
+    height: 80vh;
+    
+    
+}
+
+.bill{
+    color: #868686;
+    font-size: 16px;
+    padding: 8%;
+    text-align: center;
+    height: 10vh;
+    
+}
+
+.footer-rodape{
+    
+    background-color: #F5F5F5;
+    height: 80vh;
+   
+    
+}
+.footer-interno{
+    
+    background-color: #F5F5F5;
+    width: 95%;
+    margin: auto;
+    padding-top: 2%;
+    height: 45vh;
+    display: flex;
+    
+}
+
+.interno{
+    
+    margin-top: 50px;
+    height: 22vh;
+ width: 100%;
+    
+    color: #4A75C5;
+}
+.interno ul{
+    list-style-type: none;
+   
+    text-align: center;
+    
+}
+.interno p{
+    text-align: center;
+    margin-top: 20px;
+    color: #696969;
+    margin-left: 2%;
+    font-size: 15px;
+    
+}
+#s-mais p{
+   margin-left: 30%;
+    
+}
+#s-mais img{
+    
+     transform: translateX(80px);
+ }
+.foot-icon{
+    display: flex;
+ 
+    
+}
+.foot-icon img{
+    width:11%;
+    
+    margin-top: 13px;
+    
+    
+}
+.redes{
+    
+    height: 10vh;
+    
+}
+.redes img{
+    
+    margin-top: 8%;
+    
+}
+
+#prazo{
+    font-size: 15px;
+}
+
+.cartoes{
+    margin: auto;
+    height: 17vh;
+    color: #333333;
+    display: flex;
+    text-align: center;
+    background-color: #F5F5F5;
+    
+}   
+.cart-txt{
+    width: 40%;
+    height: 17vh;
+   position: relative;
+  
+    
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.cart-txt p{
+    
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+   
+
+.entrega-img img{
+    margin-top: -7%;
+   
+    
+   
+   
+}
+.foot-fim{
+    background-color: #E8E7E7;
+    
+    padding: 1.6%;
+    text-align: center;
+    color: #696969;
+    font-size: small;
+}
+#fim{
+    color: #696969;
+    font-size: small;
+}  
+
+
+    
+.whats{
+
+    transform: translateX(25px);
+    bottom: 5px;
+    right: 5px;
+    
+}
+
+
+
+
+

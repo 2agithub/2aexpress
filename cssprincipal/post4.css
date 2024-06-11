@@ -160,7 +160,7 @@ main{
 .main-principal{
     
     width: 81.5%;
-    height: 260vh;
+    height: 290vh;
     
    
 }
@@ -198,7 +198,7 @@ main{
 }
 .main-noticias{
     
-    height: 185vh;
+    height: 200vh;
     
     
 }
@@ -306,7 +306,7 @@ text-align: justify;
 
 .post-list{
    
-    height: 60vh;
+    height: 50vh;
     background-color: white;
 }    
 

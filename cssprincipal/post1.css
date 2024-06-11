@@ -162,12 +162,11 @@ main{
     width: 81.5%;
     height: 260vh;
     
-    
    
 }
 .main-topo{
     width: 90%;
-    display: flex;
+    
     height: 5vh;
     justify-content: center;
     align-items: center;
@@ -198,11 +197,27 @@ main{
     
 }
 .main-noticias{
-    display: flex;
-    height: 80vh;
+    
+    height: 185vh;
     
     
 }
+
+.paragrafo{
+    display: flex;
+
+}
+.ph{
+    font-size: 1.6em;
+
+}
+
+.paragrafo p{
+    font-size: 1.3em;
+margin-top: 10%;
+text-align: justify;
+}
+
 
 .nt{
     width: 50%;
@@ -230,7 +245,7 @@ main{
 .ntt-span{
     font-size: 14px;
     color: gray;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 .img-noticias{
    

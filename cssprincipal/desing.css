@@ -11,107 +11,64 @@ body, html{
 }
 
 /*---------------------------------------------HEADER*/
-
-header{
-    background-color: #F9F9F9;
-    height: 3vh;
-    display: flex;
-}
-.horario{
-    
-    width: 50%;
-}
-.horario p{
-    color: #333333;
-    font-size: small;
-    margin-top: 2px;
-    margin-left: 20px;
-}
-.bem-vindo{
-    
-    width: 50%;
-    
-}
-.bem-vindo p{
-    color: #333333;
-    font-size: small;
-    margin-top: 2px;
-    float: right;
-    margin-right: 20px;
-}
-
-
-
-
-/*---------------------------------------------NAV*/
-#barra-nav{
-    background-color: #4A75C5;
-    height: 2px;
-}
-
-.search{
-    background-color: #FFFFFF;
-    
-    height: 5.2vh;
-    display: flex;
-}
-.nav-bar{
-    
-    width: 50%;
-    
-    padding-top: 10px;
-}
-
-#barra-nav2{
+.header{
+    background-color: #4a75c5;
+    padding-inline: 2%;  /* se refere a left e right*/
    
-        background-color: #F1F1F1;
-        height: 2px;
-        margin-bottom: 2%;
-}    
-#homer{
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #4A75C5;
 }
 
-
-.nav-bar a{
-    padding-top: 10px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #3E3E3E;
-    text-decoration: none;
-}
-.nav-bar2{
-    
+.nav{
     display: flex;
-    width: 50%;
-    
-    justify-content: end;
-}
-.nav-bar2 a{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
    
     
-    margin-right: 40px;
-    padding-top: 12px;
-    color: #3E3E3E;
+}
 
-    text-decoration: none;
+.nav-list{
+    display: flex;
+    padding-block: 20px;  /* se refere a top e bottom*/
+    gap: 10px; 
+    list-style: none;
 }
-.nav-bar3{
-    padding-top: 10px;
+
+.nav-list a{
+    font-size: 18px;
+    color: #fff;
+ 
+   text-decoration: none;
+   padding-block: 20px;  /* se refere a top e bottom*/
+   padding-inline: 30px;
+   
+  
 }
-.nav-bar3 a{
-    padding-top:20px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #3E3E3E;
-    text-decoration: none;
+.nav-list a:hover{
+    background-color: #333333;
+    
+}
+
+
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+.hamburger::before,
+.hamburger::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
 }
 
 /*---------------------------------------------MAIN*/

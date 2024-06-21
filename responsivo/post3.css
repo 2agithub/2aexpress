@@ -1,0 +1,655 @@
+
+@media (max-width: 750px){
+    
+        *{
+            padding: 0;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body, html{
+            width: 100%;
+            background-color: #F9F9F9;
+        
+        }
+
+        /*---------------------------------------------HEADER*/
+
+        .header{
+            background-color: #4a75c5;
+            padding-inline: 16px; /* se refere a left e right*/
+        }
+        
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1280px;
+            height: 70px;
+            margin-inline: auto;
+            
+        }
+        
+        .nav-list{
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+        
+        .nav-list a{
+            font-size: 18px;
+            color: #fff;
+            padding-block: 16px; /* se refere a top e bottom*/
+           
+        
+        }
+        
+        
+        
+        
+        .hamburger{
+            display: none;
+            border: none;
+            background: none;
+            border-top: 3px solid #fff;
+            cursor: pointer;
+        }
+        .hamburger::before,
+        .hamburger::after {
+            content: " ";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: #fff;
+            margin-top: 5px;
+            position: relative;
+            transition: 0.3s;
+        }
+        
+            .hamburger{
+                display: block;
+                z-index: 1;
+            }
+        
+            .nav-list{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background: #a5c;
+                clip-path: circle(100px at 90% -15%);
+                transition: 1s ease-out;
+        
+        
+        
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                gap: 0;
+                pointer-events: none;
+            }
+            .nav-list a{
+                font-size: 24px;
+                opacity: 0;
+            }
+        
+            .nav-list li:nth-child(1) a{
+                transition: 0.5s 0.2s;
+            }
+            .nav-list li:nth-child(2) a{
+                transition: 0.5s 0.4s;
+            }
+            .nav-list li:nth-child(3) a{
+                transition: 0.5s 0.6s;
+            }
+        
+            .nav.active .nav-list{
+                clip-path: circle(1500px at 90% -15%);
+                pointer-events: all;
+            }
+            .nav.active .nav-list a{
+                opacity: 1;
+            }
+        
+            .nav.active .hamburger{
+                position: fixed;
+                top: 26px;
+                right: 16px;
+                border-top-color: transparent;
+            }
+        
+            .nav.active .hamburger::before{
+                transform: rotate(135deg);
+            }
+            .nav.active .hamburger::after{
+                transform: rotate(-135deg);
+                top: -7px;
+            }
+
+
+            .banner-t{
+                display: none;
+            }
+        /*---------------------------------------------MAIN*/
+
+       
+
+main{
+    width: 93%;
+    margin: auto;
+    display: flex;
+   margin-top: 10%;
+}    
+
+.main-principal{
+    
+    width: 100%;
+    height: 390vh;
+   
+    display: block;
+}
+.main-topo{
+    width: 100%;
+  
+  
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.paragrafo{
+    
+   
+}
+
+
+
+
+
+.topo-mundo{
+    width: 100%;
+   font-size: 1.7em;
+  
+   
+    
+}
+.main-noticias{
+    display: block;
+    height: 259vh;
+   
+   
+   
+   
+    
+}
+
+.nt{
+    width: 50%;
+    text-decoration: none;
+    
+    
+}
+.nt h1{
+    
+    font-size: 1.5em;
+    color: rgb(104, 3, 3);
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+.nt p{
+  color: black;
+   width: 90%;
+   height: 15vh;
+    
+    
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+
+
+.nt-span{
+    font-size: 14px;
+    color: gray;
+    margin-left: 70px;
+}
+.ntt-span{
+    font-size: 14px;
+    color: gray;
+    margin-left: 50%;
+}
+.img-noticias{
+   
+   
+    height: 50;
+    justify-content: center;
+}
+
+.img-noticias img{
+   margin-bottom: 2%;
+    width: 70%;
+}
+
+.not-block{
+   
+    height: 40vh;
+    display: flex;
+    width: 100%;
+   
+    
+}
+.not-1{
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    color: black;
+    
+    justify-content: center;
+}
+.not-1 img{
+   
+    width: 95%;
+  
+    height: 20vh;
+
+}
+.not-1 h1{
+    position: absolute;
+    transform: translateY(140%);
+    
+    font-size: 16px;
+    width: 37%;
+     text-align: center;
+    height: 15vh;
+    
+    
+   
+}
+
+
+
+.main-left{
+    display: none;
+    margin-left:1.7%;
+    height: 180vh;
+    width: 16.8%;
+    
+}    
+
+.post{
+    height: 5vh;
+    background-color: #3E3E3E;
+}    
+
+.post p{
+    color: white;
+    padding-top: 4.5%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}    
+
+
+.post-list{
+   
+    height: 60vh;
+    background-color: white;
+}    
+
+.recente{
+    height: 4vh;
+    text-align: center;
+    background-color: #cfcfcf;
+
+}     
+   
+
+.recente p{
+    padding-top: 2%;
+    color: #3E3E3E;
+}
+    
+
+.list{
+    height: 50vh;
+    
+}    
+
+.list a{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 5%;
+    padding-top: 20px;
+    margin-left: 10%;
+    display: block;
+    
+}
+.list a:hover{
+    color: #4A75C5;
+}
+
+.saiba{
+    
+    height: 80vh;
+    padding-top: 20%;
+    
+}    
+
+.leia{
+    color: #4A75C5;
+    font-size: 20px;
+    margin-left: 3px;
+    
+
+}    
+
+.mais{
+    margin-top: 10px;
+    font-size: 19px;
+    padding: 10px;
+    
+    text-align: justify;
+}
+.mais a{
+    color: #4A75C5;
+}    
+
+
+.card-anuncio{
+   
+    height: 54vh;
+    
+}    
+
+.card-anuncio a{
+    text-decoration: none;
+    text-align: center;
+    
+}    
+
+.anuncio{
+    background-color: #F8B64C;
+    height: 10vh;
+    margin-bottom: 40%;
+}   
+
+.anuncio a{
+    color: #3E3E3E;
+    position: absolute;
+    padding: 11px 33px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.anuncio1{
+    background-color: #A14196;
+    margin-top: 5%;
+    height: 10vh;
+}    
+
+.anuncio1 a{
+    color: white;
+    position: absolute;
+    padding: 25px 27px;
+    
+    font-weight: bold;
+}
+.anuncio2{
+    background-color: #4A75C5;
+    margin-top: 5%;
+    height: 10vh;
+}    
+
+.anuncio2 a{
+    color: white;
+    position: absolute;
+    
+    
+    font-weight: bold;
+    
+    padding: 18px 6px;
+}    
+    
+   
+
+.anuncio2 p{
+    font-weight: normal;
+    font-size: 12px;
+}
+.anuncio3{
+    margin-top: 5%;
+    background-color: #403E36;
+    height: 10vh;
+    
+}
+.anuncio3 a{
+   
+    color: #FFC33E;
+    position: absolute;
+    padding: 17px 22px;
+    font-weight: bold;
+}    
+
+   
+
+.anuncio3 p{
+    font-weight: normal;
+    font-size: small;
+    color: #FFC33E;
+   
+}
+.anuncio4{
+    margin-top: 5%;
+    height: 29vh;
+    
+}   
+#whats-img{
+    
+    
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+/*---------------------------------------------ARTICLE*/
+
+ article{
+    display: none;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    
+}   
+
+
+.artigos{
+    
+    margin: auto;
+    height: 30vh;
+  
+    
+}    
+
+ 
+
+.clientes{
+   
+    
+    text-align: center;
+   
+}    
+
+.clientes p{
+    font-size: 2em;
+    height: 10vh;
+    color: #3E3E3E;
+}
+
+
+
+        /*---------------------------------------------FOOTER*/
+        footer{
+        
+            height: 21vh;
+            
+            
+        }
+
+        .bill{
+            color: #868686;
+            font-size: 12px;
+            padding: 8%;
+            text-align: center;
+            height: 10vh;
+            
+        }
+
+        .footer-rodape{
+            
+           
+            background-color: #F5F5F5;
+            height: 10.5vh;
+            
+        
+            
+        }
+        .footer-interno{
+            display: none;
+            background-color: #F5F5F5;
+            width: 95%;
+            margin: auto;
+            
+            height: 2vh;
+            display: flex;
+             
+        }
+
+        .interno{
+            display: none;
+            margin-top: 50px;
+          
+        width: 100%;
+        
+            color: #4A75C5;
+        }
+        .interno ul{
+            list-style-type: none;
+        
+            text-align: center;
+            
+        }
+        .interno p{
+            
+            text-align: center;
+            margin-top: 20px;
+            color: #696969;
+            margin-left: 2%;
+            font-size: 15px;
+            
+        }
+        #s-mais p{
+        margin-left: 30%;
+        
+        }
+        #s-mais img{
+            
+            transform: translateX(80px);
+        }
+        .foot-icon{
+            display: flex;
+            
+            
+        }
+        .foot-icon img{
+            width:11%;
+            
+            margin-top: 13px;
+            
+            
+        }
+        .redes{
+            
+            height: 10vh;
+            
+        }
+        .redes img{
+            
+            margin-top: 8%;
+            
+        }
+
+        #prazo{
+            font-size: 15px;
+        }
+
+        .cartoes{
+            display: none;
+            
+            margin: auto;
+            height: 17vh;
+            color: #333333;
+            
+            text-align: center;
+            background-color: #F5F5F5;
+            
+        }   
+        .cart-txt{
+            width: 40%;
+            height: 17vh;
+        position: relative;
+        
+            
+            font-weight: bolder;
+            font-size: 8px;
+            
+        }
+        .cart-txt p{
+            margin-top: 5px;
+            font-size: 12px;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        
+
+        .entrega-img img{
+            margin-top: -7%;
+            width: 100%;
+            
+        
+        
+        }
+        .foot-fim{
+            background-color: #E8E7E7;
+           
+            
+            text-align: center;
+            color: #696969;
+            font-size: 15px;
+        }
+        #fim{
+            color: #696969;
+            font-size: 11px;
+        }  
+
+
+            
+        .whats{
+           display: none;
+            transform: translateX(-70px);
+            bottom: 5px;
+            right: 5px;
+            
+        }
+
+}

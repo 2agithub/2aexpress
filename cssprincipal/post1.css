@@ -12,33 +12,97 @@ body, html{
 
 /*---------------------------------------------HEADER*/
 
-header{
-    background-color: #F9F9F9;
-    height: 3vh;
+.header{
+    background-color: #4a75c5;
+    padding-inline: 2%;  /* se refere a left e right*/
+   
+}
+
+.nav{
     display: flex;
-}
-.horario{
-    
-    width: 50%;
-}
-.horario p{
-    color: #333333;
-    font-size: small;
-    margin-top: 2px;
-    margin-left: 20px;
-}
-.bem-vindo{
-    
-    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+   
     
 }
-.bem-vindo p{
-    color: #333333;
-    font-size: small;
-    margin-top: 2px;
-    float: right;
-    margin-right: 20px;
+
+.nav-list{
+    display: flex;
+    padding-block: 20px;  /* se refere a top e bottom*/
+    gap: 10px; 
+    list-style: none;
 }
+
+.nav-list a{
+    font-size: 18px;
+    color: #fff;
+ 
+   text-decoration: none;
+   padding-block: 20px;  /* se refere a top e bottom*/
+   padding-inline: 30px;
+   
+  
+}
+.nav-list a:hover{
+    background-color: #333333;
+    
+}
+
+
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+.hamburger::before,
+.hamburger::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.banner-t{
+    padding-top: 2%;
+    display: flex;
+    
+    height: 55vh;
+    margin: 20px;
+   
+    
+}
+.carrossel{
+    overflow: hidden;
+  /*  filter: drop-shadow(0px 0px 10px #000);*/
+    
+    
+    
+}
+.container{
+   
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+    width: 1250px;
+    
+}
+
+
+
+
+
+
+
 
 
 

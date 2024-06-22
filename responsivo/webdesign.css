@@ -339,7 +339,7 @@
 
             
         .whats{
-
+            display: none;
             transform: translateX(25px);
             bottom: 5px;
             right: 5px;

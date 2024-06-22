@@ -107,6 +107,7 @@
             .nav.active .nav-list{
                 clip-path: circle(1500px at 90% -15%);
                 pointer-events: all;
+                
             }
             .nav.active .nav-list a{
                 opacity: 1;
@@ -139,13 +140,13 @@ main{
     width: 93%;
     margin: auto;
     display: flex;
-    
+   
 }    
 
 .main-principal{
     
     width: 100%;
-    height: 460vh;
+    height: 410vh;
     
    
 }
@@ -156,7 +157,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-
+    
 }
 
 .topo{
@@ -174,38 +175,39 @@ main{
 .topo-mundo{
     width: 100%;
    font-size: 1.7em;
-    
+   margin-bottom: 15%;
+   margin-top: 20%;
+   transform: translateY(300%);
     
 }
 .main-noticias{
     display: block;
-    height: 125vh;
-    margin-bottom: 50%;
+    height: 115vh;
+    
     
    
    
     
 }
 
-.nt{
-    width: 50%;
-    text-decoration: none;
-    
-    
-}
+
 .nt h1{
     
-    font-size: 1.5em;
+    
     color: rgb(104, 3, 3);
     margin: 0 auto;
     margin-top: 20%;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    
+   
 }
 .nt p{
   color: black;
    width: 90%;
-   height: 15vh;
-    
+   
+  
     
     margin: auto;
     text-align: justify;
@@ -213,17 +215,24 @@ main{
     
 }
 
-
+span{
+   
+    margin-top: 5%;
+}
 
 .nt-span{
     font-size: 14px;
     color: gray;
     margin-left: 70px;
+    
 }
 .ntt-span{
     font-size: 14px;
+    position:absolute;
     color: gray;
-    margin-left: 50%;
+    margin-left: 40%;
+    
+    
 }
 .img-noticias{
    
@@ -242,12 +251,13 @@ main{
     height: 40vh;
     display: flex;
     width: 100%;
-   
+    transform: translateY(40%);
     
 }
 .not-1{
     text-decoration: none;
     width: 50%;
+    
     display: flex;
     color: black;
     
@@ -262,12 +272,14 @@ main{
 }
 .not-1 h1{
     position: absolute;
-    transform: translateY(140%);
+  
+    transform: translateX(-8%);
+    margin-top: 45%;
     
     font-size: 16px;
     width: 37%;
      text-align: center;
-    height: 15vh;
+    height: 20vh;
     
     
    

@@ -232,10 +232,34 @@ main{
     
 }    
 
+.cabecalho-menu img{
+
+width: 100%;
+
+}
+
+.cabecalho-menu{
+    
+    
+    height: 30vh;
+    text-align: center;
+    font-size: 10px;
+    color: #3E3E3E;
+}
+
+.cabecalho-menu h1{
+    margin-top: 10%;
+}
+
+.cabecalho-menu p{
+    font-size: 12px;
+    color: black;
+}
+
 .main-principal{
     
-    width: 63.5%;
-    height: 230vh;
+   
+    height: 140vh;
     margin-left: 1%;
     
    
@@ -243,7 +267,8 @@ main{
 .conteiner{
     margin-top: 1%;
     
-    height: 50vh;
+    height: 30vh;
+    
 }
 .em-destaque{
     font-weight: bolder;
@@ -266,6 +291,7 @@ main{
 
 .cardprinc-top{
     
+    width: 150%;
     height: 40vh;
     display: flex;
     
@@ -274,7 +300,7 @@ main{
     border: solid #acacac36;
     width: 100%;
     border-radius: 32px;
-    height: 37vh;
+    height: 25vh;
     margin: 1%;
     
     
@@ -282,17 +308,17 @@ main{
 .card-int{
     
     width: 100%;
-    height: 25vh;
+    height: 15vh;
     border-radius: 32px 32px 0px 0px;
     text-align: center;
     margin: auto;
-   
+    
     
 }
 .card-int img{
     
     width: 100%;
-    height: 25vh;
+    height: 15vh;
     border-radius: 32px 32px 0px 0px;
     text-align: center;
     margin: auto;
@@ -302,11 +328,11 @@ main{
 .card-txt{
     
     text-align: center;
-    width: 95%;
+    width: 100%;
     height: 4vh;
     margin-top: 10px;
     margin-left: 2.1%;
-    
+    border: solid red;
     border-radius: 32px 32px 32px 32px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
 }
@@ -316,21 +342,19 @@ main{
     margin-top: 5%;
     color: #3E3E3E;
     font-weight: bolder;
+    font-size: 12px;
     
 }
 
 
-.card-txt  a{
-    position: absolute;
-    margin-left: -110.3px;
-    margin-top: -1px;
-    border-radius: 32px 32px 32px 32px;
-    
-    color: #4A75C5;
-    font-size: small;
-    padding: 7px 72px 7px 72px;
+#links-detalhes{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    text-decoration: none;
 }
-.card-txt a:hover{
+#links-detalhes a:hover{
     background-color: #4A75C5;
     color: white;
     transition-duration: 0.5s;
@@ -339,22 +363,6 @@ main{
 
 
 
-.conteiner2{
-    
-    height: 50vh;
-}
-
-
-.conteiner3{
-    margin-top: 1%;
-    
-    height: 50vh;
-}
-.conteiner4{
-    
-    
-    height: 50vh;
-}
 
 
 .main-left{
@@ -549,8 +557,8 @@ main{
  article{
     width: 100%;
     margin: auto;
-    height: 40vh;
-    
+    height: 25vh;
+ 
 }   
 
 
@@ -572,8 +580,8 @@ main{
 }    
 
 .clientes p{
-    font-size: 2em;
-    height: 20vh;
+    font-size: 1.2em;
+    height: 10vh;
     color: #3E3E3E;
 }
 .clientes img{
@@ -731,10 +739,10 @@ position: relative;
 
     
 .whats{
-    display: none;
-    transform: translateX(-70px);
+    
+    transform: translateX(20px);
     bottom: 5px;
-    right: 5px;
+    right: 6px;
     
 }
 

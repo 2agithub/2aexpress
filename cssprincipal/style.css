@@ -100,7 +100,9 @@ body, html{
 
 
 
-
+.cabecalho-menu{
+    display: none;
+}
 
 /*---------------------------------------------ASIDE*/
 aside{
@@ -198,6 +200,15 @@ main{
     
     height: 50vh;
 }
+
+#links-detalhes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    text-decoration: none;
+    color:#4A75C5;
+}
+
 .em-destaque{
     font-weight: bolder;
     
@@ -273,22 +284,7 @@ main{
 }
 
 
-.card-txt  a{
-    position: absolute;
-    margin-left: -110.3px;
-    margin-top: -1px;
-    border-radius: 32px 32px 32px 32px;
-    
-    color: #4A75C5;
-    font-size: small;
-    padding: 7px 72px 7px 72px;
-}
-.card-txt a:hover{
-    background-color: #4A75C5;
-    color: white;
-    transition-duration: 0.5s;
-    
-}
+
 
 
 

@@ -147,7 +147,30 @@ transition: 0.3s;
     .banner-t{
         display: none;
     }
+    
+    .cabecalho-menu img{
+
+        width: 100%;
         
+        }
+        
+        .cabecalho-menu{
+            
+            display: block;
+            height: 30vh;
+            text-align: center;
+            font-size: 10px;
+            color: #3E3E3E;
+        }
+        
+        .cabecalho-menu h1{
+            margin-top: 10%;
+        }
+        
+        .cabecalho-menu p{
+            font-size: 12px;
+            color: black;
+        }
 
 /*---------------------------------------------ASIDE*/
 aside{
@@ -232,29 +255,7 @@ main{
     
 }    
 
-.cabecalho-menu img{
 
-width: 100%;
-
-}
-
-.cabecalho-menu{
-    
-    
-    height: 30vh;
-    text-align: center;
-    font-size: 10px;
-    color: #3E3E3E;
-}
-
-.cabecalho-menu h1{
-    margin-top: 10%;
-}
-
-.cabecalho-menu p{
-    font-size: 12px;
-    color: black;
-}
 
 .main-principal{
     

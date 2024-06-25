@@ -1,5 +1,5 @@
 
-@media (max-width: 750px){
+@media screen and (max-width: 767px){
     
         *{
             padding: 0;
@@ -68,7 +68,7 @@
     transition: 0.3s;
   }
 
-          @media (max-width: 750px){
+          @media (max-width: 768px){
 
             .hamburger {
                 display: block;
@@ -154,7 +154,7 @@
             width: 93%;
             margin: auto;
             margin-top: 20%;
-            height: 90vh;
+            height: 80vh;
             
         }    
             

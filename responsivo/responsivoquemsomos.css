@@ -86,7 +86,7 @@
                 height: 100vh;
                 background: #a5c;
                 clip-path: circle(100px at 90% -25%);
-                transition: 1s ease-out;
+               
             
                 flex-direction: column;
                 justify-content: space-around;

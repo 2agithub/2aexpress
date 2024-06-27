@@ -90,7 +90,7 @@
                 height: 100vh;
                 background: #a5c;
                 clip-path: circle(100px at 90% -25%);
-               
+               overflow-y: hidden;
             
                 flex-direction: column;
                 

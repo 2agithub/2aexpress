@@ -1,6 +1,3 @@
-
-@media (max-width: 750px){
-
 *{
     padding: 0;
     margin: 0px;
@@ -72,7 +69,7 @@ transition: 0.3s;
     .hamburger {
         display: block;
         overflow-y: hidden;
-        z-index: 1;
+        z-index: 100;
       }
 
      
@@ -214,6 +211,7 @@ transition: 0.3s;
 
 }
 /*---------------------------------------------ASIDE*/
+
 aside{
     height: 210vh;
     width: 18.7%;
@@ -287,321 +285,99 @@ aside{
    text-align: center;
    
 }
+#chaveiro{
+    background-color:#4A75C5 ;
+    color: black;
+}
 /*---------------------------------------------MAIN*/
 
 main{
+    display: none;
     width: 93%;
     margin: auto;
     display: flex;
     
 }    
 
-
-
 .main-principal{
-    
-   
-    height: 140vh;
-    margin-left: 1%;
-    
-   
-}
-.conteiner{
-    margin-top: 1%;
-    
-    height: 30vh;
-    
-}
-.em-destaque{
-    font-weight: bolder;
-    
-    font-size: 1.3em;
-}
-.em-destaque p{
-    color: #3E3E3E;
-    padding-left: 10%;
-}
-.linha{
-    width: 95%;
-    margin: auto;
-    
-    border: solid #86868617;
-}
-#destaq{
-    color: #757575;
-}
-
-.cardprinc-top{
-    
-    width: 150%;
-    height: 40vh;
-    display: flex;
-    
-}
-.card{
-    border: solid #acacac36;
-    width: 100%;
-    border-radius: 32px;
-    height: 20vh;
-    
-    margin: 1%;
-    
-    
-}
-.card-int{
-    
-    width: 100%;
-    height: 13vh;
-    border-radius: 32px 32px 0px 0px;
-    text-align: center;
-    margin: auto;
-   
-    
-}
-.card-int img{
-    
-    width: 100%;
-    height: 12vh;
-    border-radius: 32px 32px 0px 0px;
-    text-align: center;
-    margin: auto;
-}
-
-
-.card-txt{
-    
-    text-align: center;
-    width: 100%;
-    height: 4vh;
-    margin-top: 10px;
-    margin-left: 2.1%;
-    border: solid red;
-    border-radius: 32px 32px 32px 32px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
-}
-
-#cabecalho{
-    text-align: center;
-    margin-top: 5%;
-    color: #3E3E3E;
-    font-weight: bolder;
-    font-size: 12px;
-    
-}
-
-
-#links-detalhes{
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    text-decoration: none;
-}
-#links-detalhes a:hover{
-    background-color: #4A75C5;
-    color: white;
-    transition-duration: 0.5s;
-    
-}
-
-
-
-
-
-.main-left{
-    margin-left: 1%;
-    height: 180vh;
-    width: 17%;
     display: none;
-}    
+    width: 90%;
+    height: 610vh;
+    margin-left: 1%;
+    
+   
+}
+.sec_banner{
+    text-align: center;
+    font-size: 1.6em;
+}
+.card-produtos{
+    
+    height: 45vh;
+    display: flex;
+}
 
-.post{
-    height: 5vh;
-    background-color: #3E3E3E;
-}    
-
-.post p{
-    color: white;
-    padding-top: 4.5%;
-    font-weight: bolder;
+.card{
+    
+    width: 40%;
+    height: 40vh;
+    margin: 2%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-}    
+    align-items: center;
+}
 
-
-.post-list{
+.card img{
+    border-radius: 20px;
+}
+.produtos-txt{
+    
+    height: 20vh;
+    display: flex;
+}
+.pro-txt{
    
-    height: 60vh;
-    background-color: white;
-}    
-
-.recente{
-    height: 4vh;
+    width: 40%;
     text-align: center;
-    background-color: #cfcfcf;
-
-}     
-   
-
-.recente p{
-    padding-top: 2%;
-    color: #3E3E3E;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-    
 
-.list{
-    height: 50vh;
-    
-}    
-
-.list a{
-    text-decoration: none;
-    color: #000000;
-    margin-top: 5%;
-    padding-top: 20px;
-    margin-left: 10%;
-    display: block;
+.cardd{
+    width: 30%;
+    height: 40vh;
+    margin: 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.list a:hover{
+.cardd img{
+    border-radius: 20px;
+}
+.pro-txtt{
+    width: 30%;
+   text-align: center;
+    margin-left: 2%;
+}
+#txt{
+    font-weight: bold;
+}
+#preco{
+    font-weight: bold;
     color: #4A75C5;
-}
-
-.saiba{
-    
-    height: 80vh;
-    padding-top: 20%;
-    
-}    
-
-.leia{
-    color: #4A75C5;
-    font-size: 20px;
-    margin-left: 3px;
-    
-
-}    
-
-.mais{
-    margin-top: 10px;
-    font-size: 19px;
-    padding: 10px;
-    
-    text-align: justify;
-}
-.mais a{
-    color: #4A75C5;
-}    
-
-
-.card-anuncio{
-   
-    height: 54vh;
-    
-}    
-
-.card-anuncio a{
-    text-decoration: none;
-    text-align: center;
-    
-}    
-
-.anuncio{
-    background-color: #F8B64C;
-    height: 10vh;
-    margin-bottom: 40%;
-}   
-
-.anuncio a{
-    color: #3E3E3E;
-    position: absolute;
-    padding: 11px 33px;
-    font-weight: bold;
-    font-size: 20px;
     
 }
-.anuncio1{
-    background-color: #A14196;
-    margin-top: 5%;
-    height: 10vh;
-}    
-
-.anuncio1 a{
-    color: white;
-    position: absolute;
-    padding: 25px 27px;
-    
-    font-weight: bold;
-}
-.anuncio2{
-    background-color: #4A75C5;
-    margin-top: 5%;
-    height: 10vh;
-}    
-
-.anuncio2 a{
-    color: white;
-    position: absolute;
-    
-    
-    font-weight: bold;
-    
-    padding: 18px 6px;
-}    
-    
-   
-
-.anuncio2 p{
-    font-weight: normal;
-    font-size: 12px;
-}
-.anuncio3{
-    margin-top: 5%;
-    background-color: #403E36;
-    height: 10vh;
-    
-}
-.anuncio3 a{
-   
-    color: #FFC33E;
-    position: absolute;
-    padding: 17px 22px;
-    font-weight: bold;
-}    
-
-   
-
-.anuncio3 p{
-    font-weight: normal;
-    font-size: small;
-    color: #FFC33E;
-   
-}
-.anuncio4{
-    margin-top: 5%;
-    height: 29vh;
-    
-}   
-#whats-img{
-    
-    
-    width: 100%;
-    
-}
-
-
-
-
-
-
-
 /*---------------------------------------------ARTICLE*/
 
  article{
+    display: none;
     width: 100%;
     margin: auto;
-    height: 25vh;
- 
+    height: 40vh;
+    
 }   
 
 
@@ -623,12 +399,9 @@ main{
 }    
 
 .clientes p{
-    font-size: 1.2em;
+    font-size: 2em;
     height: 10vh;
     color: #3E3E3E;
-}
-.clientes img{
-    width: 100%;
 }
 
 
@@ -636,15 +409,15 @@ main{
 /*---------------------------------------------FOOTER*/
 
 footer{
-        
-    height: 21vh;
+    display: none;
+    height: 80vh;
     
     
 }
 
 .bill{
     color: #868686;
-    font-size: 12px;
+    font-size: 16px;
     padding: 8%;
     text-align: center;
     height: 10vh;
@@ -653,40 +426,37 @@ footer{
 
 .footer-rodape{
     
-   
     background-color: #F5F5F5;
-    height: 10.5vh;
-    
-
+    height: 80vh;
+   
     
 }
 .footer-interno{
-    display: none;
+    
     background-color: #F5F5F5;
     width: 95%;
     margin: auto;
-    
-    height: 2vh;
+    padding-top: 2%;
+    height: 45vh;
     display: flex;
-     
+    
 }
 
 .interno{
-    display: none;
+    
     margin-top: 50px;
-  
-width: 100%;
-
+    height: 22vh;
+ width: 100%;
+    
     color: #4A75C5;
 }
 .interno ul{
     list-style-type: none;
-
+   
     text-align: center;
     
 }
 .interno p{
-    
     text-align: center;
     margin-top: 20px;
     color: #696969;
@@ -695,16 +465,16 @@ width: 100%;
     
 }
 #s-mais p{
-margin-left: 30%;
-
+   margin-left: 30%;
+    
 }
 #s-mais img{
     
-    transform: translateX(80px);
-}
+     transform: translateX(80px);
+ }
 .foot-icon{
     display: flex;
-    
+ 
     
 }
 .foot-icon img{
@@ -730,12 +500,10 @@ margin-left: 30%;
 }
 
 .cartoes{
-    display: none;
-    
     margin: auto;
     height: 17vh;
     color: #333333;
-    
+    display: flex;
     text-align: center;
     background-color: #F5F5F5;
     
@@ -743,52 +511,50 @@ margin-left: 30%;
 .cart-txt{
     width: 40%;
     height: 17vh;
-position: relative;
-
+   position: relative;
+  
     
     font-weight: bolder;
-    font-size: 8px;
+    font-size: 20px;
     
 }
 .cart-txt p{
-    margin-top: 5px;
+    
     font-size: 12px;
     text-align: center;
     font-weight: lighter;
 }
 
-
+   
 
 .entrega-img img{
     margin-top: -7%;
-    width: 100%;
+   
     
-
-
+   
+   
 }
 .foot-fim{
     background-color: #E8E7E7;
-   
     
+    padding: 1.6%;
     text-align: center;
     color: #696969;
-    font-size: 15px;
+    font-size: small;
 }
 #fim{
     color: #696969;
-    font-size: 11px;
+    font-size: small;
 }  
 
 
     
 .whats{
-    display: none;
-    transform: translateX(20px);
-    bottom: 5px;
-    right: 6px;
-    
-}
 
+    transform: translateX(25px);
+    bottom: 5px;
+    right: 5px;
+    
 }
 
 

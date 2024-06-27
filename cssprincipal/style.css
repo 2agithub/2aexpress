@@ -9,6 +9,9 @@ body, html{
     background-color: #F9F9F9;
    
 }
+.apresentacao{
+    display: none;
+}
 
 /*---------------------------------------------HEADER*/
 
@@ -178,6 +181,7 @@ aside{
    text-align: center;
    
 }
+
 /*---------------------------------------------MAIN*/
 
 main{

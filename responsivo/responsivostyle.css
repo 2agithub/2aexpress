@@ -147,7 +147,7 @@ transition: 0.3s;
         display: none;
     }
 .apresentacao{
-    
+    display: block;
     width: 100%;
     height: 50vh;
     text-align: center;

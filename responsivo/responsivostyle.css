@@ -314,7 +314,7 @@ main{
     border: solid #acacac36;
     width: 100%;
     border-radius: 32px;
-    height: 21.5vh;
+    height: 20vh;
     
     margin: 1%;
     
@@ -323,17 +323,17 @@ main{
 .card-int{
     
     width: 100%;
-    height: 15vh;
+    height: 13vh;
     border-radius: 32px 32px 0px 0px;
     text-align: center;
     margin: auto;
-    
+   
     
 }
 .card-int img{
     
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     border-radius: 32px 32px 0px 0px;
     text-align: center;
     margin: auto;

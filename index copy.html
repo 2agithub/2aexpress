@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2aexpress</title>
-    <link rel="stylesheet" href="./cssprincipal/produtos.css">
-   <link rel="stylesheet" href="responsivo/style.css">
+    <link rel="stylesheet" href="./cssprincipal/style.css">
+    <link rel="stylesheet" href="./responsivo/style.css">
     <script src="script.js" defer></script>
-    
+    <script defer src="./js/menu.js"></script>
 </head>
 <body>
 
     
 
-   
     <header class="header">
         <nav class="nav">
            
@@ -64,6 +63,7 @@
         <h1>Os nosso produtos</h1>
         <p>Aproveite nossos combos de descontos!</p>
     </div>
+    
     <main>
 
         
@@ -74,7 +74,7 @@
      
             </div>
             <div class="aside-internotop">
-                <a id="adesivo" href="./adesivo.html">ADESIVOS</a>
+                <a href="./adesivo.html">ADESIVOS</a>
                 <a href="./banner.html">BANNER</a>
                 <a href="./brindes.html">BRINDES</a>
                 <a href="./cartao-visita.html">CARTÃO DE VISITA</a>
@@ -102,54 +102,271 @@
                 <a href="./squeeze.html">SQUEEZE</a> 
          </div>
          </aside>
-
          <div class="main-principal">
-           
-            <div class="card-produtos">
-                <div class="card">
-                    <img src="./imagem/adesivos/adesivo 4.png" alt="">
+            <div class="em-destaque">
+                <p>
+                   <img src="./icone/icons8-best-seller-48.png" width="24" alt=""> Em
+                </p>
+                <div class="linha">
+
                 </div>
+                <p id="destaq">Destaque</p>
+            </div>
+            <div class="conteiner">
                 
-                <div class="card">
-                    <img src="./imagem/adesivos/adesivo 10.png" alt="">
-                </div>
+                <div class="cardprinc-top">
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/impressao.png" alt="">
+                        </div>
+                        
+                            <p id="cabecalho">IMPRESSÃO</p>
 
-                <div class="card">
-                    <img src="./imagem/adesivos/ades troca.png" alt="">
-                </div>
+                            <a id="links-detalhes" href="./impressos.html">
+                                +DETALHES
+                            </a>
+                    </div>    
+                      
 
+                    
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/flyer.png" alt="">
+                        </div>
+                        <p id="cabecalho">FLYER</p>
+                        <a id="links-detalhes" href="./flyer.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/cartaodevisita.png" alt="">
+                        </div>
+                        <p id="cabecalho">CARTÕES</p>
+                        <a id="links-detalhes" href="./cartao-visita.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    
+
+                    
+                    
+                </div>
+            </div>  
+
+            <div class="conteiner">
                 
+                <div class="cardprinc-top">
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/arte digital.png" alt="">
+                        </div>
+                        <p id="cabecalho">ARTE DIGITAL</p>
+                        <a id="links-detalhes" href="./desing.html">
+                            +DETALHES
+                        </a>
 
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img  src="./imagem/adesivos.png" alt="">
+                        </div>
+                        <p id="cabecalho">ADESIVOS</p>
+                        <a id="links-detalhes" href="./adesivo.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/folder.png" alt="">
+                        </div>
+                        <p id="cabecalho">FOLDER</p>
+                        <a id="links-detalhes" href="./folder.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    
+
+                    
+                    
+                </div>
+            </div>  
+
+            <div class="em-destaque">
+                
+                <p>
+                    <img id="vendidos-img" src="./icone/icons8-carrinho-64.png" width="24" alt=""> Mais
+                </p>
+                <div class="linha">
+
+                </div>
+                <p id="destaq">Vendidos</p>
+            </div>
+            <div class="conteiner">
+                
+                <div class="cardprinc-top">
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/brindes.png" alt="">
+                        </div>
+                        <p id="cabecalho">BRINDES</p>
+                        <a id="links-detalhes" href="./brindes.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/estamparia.png" alt="">
+                        </div>
+                        <p id="cabecalho">ESTAMPARIA</p>
+                        <a id="links-detalhes" href="./camiseta.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/personalizados.png" alt="">
+                        </div>
+                        <p  id="cabecalho">PERSONALIZADOS</p>
+                        <a id="links-detalhes" href="./chinelo.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    
+
+                    
+                    
+                </div>
+            </div>
+
+            <div class="conteiner">
+                
+                <div class="cardprinc-top">
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/bolsa.png" alt="">
+                        </div>
+                        <p id="cabecalho">BOLSA</p>
+                        <a id="links-detalhes" href="./bolsa.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/display de mesa.png" alt="">
+                        </div>
+                        <p id="cabecalho">PLACA DE MESA</p>
+                        <a id="links-detalhes" href="./placa.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-int">
+                            <img src="./imagem/lembrancinhas.png" alt="">
+                        </div>
+                        <p id="cabecalho">LEMBRANCINHAS</p>
+                        <a id="links-detalhes" href="./chaveiro.html">
+                            +DETALHES
+                        </a>
+
+                    </div>
+
+                    
+
+                    
+                    
+                </div>
             </div>
             
-            <div class="produtos-txt">
-                <div class="pro-txt">
-                    <p id="txt">Adesivo - 4 cm</p> <br>
-                    <p>30 un. - R$ 25,00 <br> 50 un. -  R$ 35,00 <br> 100 un. -  R$ 55,00 <br> 200 un. -  R$ 75,00 <br> 300 un. -  R$ 100,00 <br> 500 un. -  R$ 150,00</p>
-                </div>
-
-                <div class="pro-txt">
-                    <p id="txt">Adesivo - 10 cm</p>  <br>
-                    <p>30 un. - R$ 40,00 <br> 50 un. -  R$ 50,00 <br> 100 un. -  R$ 80,00 <br> 200 un. -  R$ 150,00 </p>
-                </div>
-
-                <div class="pro-txt">
-                    <p id="txt">Adesivo - Troca de Óleo</p> <br>
-                    <p>0.5 x 0.6 cm</p>
-                    <p>50 un. -  R$ 65,00 <br> 100 un. -  R$ 95,00 <br> 200 un. -  R$ 175,00 <br>  500 un. -  R$ 420,00 <br>  1000 un. -  R$ 770,00</p>
-                </div>
-                
-                
-
-                
-
-            </div>    
-
+           
             
            
+            
+         </div>
 
 
-         
+
+         <div class="main-left">
+            <div class="post">
+                <p>TO YOU</p>
+            </div>
+            <div class="post-list">
+                <div class="recente">
+                    <p>RECENTES</p>
+
+                </div>
+                <div class="list">
+                    <a href="./post1.html">O que são 'cookies' na internet e como eles funcionam?</a>
+                    <a href="post2.html">O nosso futuro depende de um troço que você já ouviu falar, mas talvez nem saiba direito o que é</a>
+                    <a href="post3.html">Sérios problemas de não cuidar da sua
+                        SAÚDE MENTAL!</a>
+                        
+                    <a href="post4.html">3 Jogos para você jogar com PC
+                        fraco, mas sem arrependimentos</a>
+
+                </div>
+                <div class="saiba">
+                    <div class="leia">
+                        <p>Leia mais sobre <br> Materiais de Marketing</p>
+
+                    </div>
+                    <div class="mais">
+                        <p>Materiais de Marketing são 
+                            uma ótima maneira de 
+                            promover seu negócio,   serviço ou evento. Criar seu
+                             Materiais de Marketing 
+                             personalizado online é 
+                            rápido e fácil. Navegue por 
+                            nossa grande variedade de 
+                            designs e escolha seu 
+                            favorito ou carregue um de 
+                             sua preferência. <a href="">LER MAIS</a></p>
+                    </div>
+                    
+
+                </div>
+                <div class="card-anuncio">
+                    
+                    <div class="anuncio">
+                        <a href="">
+                            <p>PROMOÇÕES <br> EXCLUSIVAS</p>
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="anuncio4">
+                        <a href="#">
+                            <img id="whats-img" src="./imagem/whatsapp2.png" width="218" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+
          </div>
     </main>
 

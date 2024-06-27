@@ -10,7 +10,7 @@
         body, html{
             width: 100%;
             background-color: #F9F9F9;
-            
+        
         }
 
         /*---------------------------------------------HEADER*/
@@ -148,370 +148,255 @@
             }
         /*---------------------------------------------MAIN*/
 
-       /*---------------------------------------------MAIN*/
+       
+        aside{
+            height: 210vh;
+            width: 18.7%;
+           display: none;
+            text-align: center;
+            
+        }     
+           
+        
+        .aside-interno{
+            
+            text-align: center;
+            height: 5vh;
+            background-color: #3E3E3E;
+            color: white;
+        }    
+        
+        .aside-interno p{
+            position: absolute;
+            margin-top: 9px;
+            font-weight: bolder;
+            margin-left: 15px;
+        }    
+        
+        .aside-internotop{
+            padding-top: 40%;
+            height: 85vh;
+            
+            background-color: white;
+        }
+        .aside-internotop a{
+            padding-top: 8.5%;
+            padding-bottom: 8.5%;
+            text-decoration: none;
+            color: #6E6E73 ;
+            display: block;
+        }
+        .aside-internotop a:hover{
+            color: black;
+            background-color: #4A75C5;
+            padding-top: 8.5%;
+            padding-bottom: 8.5%;
+        
+           text-align: center;
+        }
+        
+        .aside-internobottom{
+            margin-top: 5%;
+            
+            height: 103vh;
+            
+            background-color: white;
+        }
+        
+        .aside-internobottom a{
+            margin-top: 2%;
+            padding-top: 8.5%;
+            padding-bottom: 8.5%;
+            
+            text-decoration: none;
+            color: #6E6E73 ;
+            display: block;
+            
+        }
+        .aside-internobottom a:hover{
+            color: black;
+            background-color: #4A75C5;
+            padding-top: 8.5%;
+            padding-bottom: 8.5%;
+        
+           text-align: center;
+           
+        }
+        
+        /*---------------------------------------------MAIN*/
+        
+        main{
+            width: 93%;
+            margin: auto;
+            display: flex;
+            
+        }    
+        
+        .main-principal{
+            
+            width: 100%;
+            height: 50vh;
+            
+            margin-top: 10%;
+           
+        }
+        
+        .sec_banner{
+            text-align: center;
+            font-size: 1.6em;
+        }
+        .card-produtos{
+          
+           width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+        
+        .card{
+            
+            width: 100%;
+            height: 15vh;
+            margin: 2%;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card img{
+            width: 100%;
+            border-radius: 20px;
+            
+        }
+        .produtos-txt{
+            text-align: center;
+            height: 20vh;
+            display: flex;
+        }
+        .pro-txt{
+           
+            width: 40%;
+            
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+      
+        .pro-txtt{
+            width: 30%;
+          
+            margin-left: 2%;
+            font-size: 10px;
+           
+        }
 
-main{
-    width: 93%;
-    margin: auto;
-    display: flex;
-   
-}    
-
-.main-principal{
-    
-    width: 100%;
-    height: 30vh;
-    
-   
-}
-.main-topo{
-    width: 90%;
-    display: flex;
-    height: 5vh;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    
-}
-
-.topo{
-   
-    
-    width: 100%;
-    font-size: 2em;
-    display: flex;
-    margin-left: 20px;
-    
-}
-
-
-
-.topo-mundo{
-    width: 100%;
-   font-size: 1.7em;
-   margin-bottom: 15%;
-   margin-top: 20%;
-   transform: translateY(300%);
-    
-}
-.main-noticias{
-    display: block;
-    height: 120vh;
-    
-    
-   
-   
-    
-}
-
-
-.nt h1{
-    
-    
-    color: rgb(104, 3, 3);
-    margin: 0 auto;
-    margin-top: 20%;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    
-   
-}
-.nt p{
-  color: black;
-   width: 90%;
-   
-  
-    
-    margin: auto;
-    text-align: justify;
-    font-size: 20px;
-    
-}
-
-
-
-.nt-span{
-    font-size: 14px;
-    color: gray;
-    margin-left: 70px;
-    
-}
-.ntt-span{
-    font-size: 14px;
-    
-    color: gray;
-    margin-left: 40%;
-    
-    
-}
-.img-noticias{
-   
-   
-    height: 50;
-    justify-content: center;
-}
-
-.img-noticias img{
-   margin-bottom: 2%;
-    width: 70%;
-}
-
-.main-topo2{
-    width: 100%;
-    font-size: 2em;
-    display: flex;
-    margin-left: 20px;
-    margin-top: 15%;
-}
-
-.sessao-principal{
-    text-decoration: none;
-    display: block;
-    
-   
-    
-}
-
-#se-top{
-    font-size: 1.6em;
-}
-.se h1{
-    width: 50%;
-    font-size: 15px;
-    margin-left: 2%;
-    color: black;
-    display: flex;
-    align-items: center;
-    
-}
-
-
-
-.main-left{
-    display: none;
-    margin-left:1.7%;
-    height: 180vh;
-    width: 16.8%;
-    
-}    
-
-.post{
-    height: 5vh;
-    background-color: #3E3E3E;
-}    
-
-.post p{
-    color: white;
-    padding-top: 4.5%;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-}    
-
-
-.post-list{
-   
-    height: 60vh;
-    background-color: white;
-}    
-
-.recente{
-    height: 4vh;
-    text-align: center;
-    background-color: #cfcfcf;
-
-}     
-   
-
-.recente p{
-    padding-top: 2%;
-    color: #3E3E3E;
-}
-    
-
-.list{
-    height: 50vh;
-    
-}    
-
-.list a{
-    text-decoration: none;
-    color: #000000;
-    margin-top: 5%;
-    padding-top: 20px;
-    margin-left: 10%;
-    display: block;
-    
-}
-.list a:hover{
-    color: #4A75C5;
-}
-
-.saiba{
-    
-    height: 80vh;
-    padding-top: 20%;
-    
-}    
-
-.leia{
-    color: #4A75C5;
-    font-size: 20px;
-    margin-left: 3px;
-    
-
-}    
-
-.mais{
-    margin-top: 10px;
-    font-size: 19px;
-    padding: 10px;
-    
-    text-align: justify;
-}
-.mais a{
-    color: #4A75C5;
-}    
-
-
-.card-anuncio{
-   
-    height: 54vh;
-    
-}    
-
-.card-anuncio a{
-    text-decoration: none;
-    text-align: center;
-    
-}    
-
-.anuncio{
-    background-color: #F8B64C;
-    height: 10vh;
-    margin-bottom: 40%;
-}   
-
-.anuncio a{
-    color: #3E3E3E;
-    position: absolute;
-    padding: 11px 33px;
-    font-weight: bold;
-    font-size: 20px;
-    
-}
-.anuncio1{
-    background-color: #A14196;
-    margin-top: 5%;
-    height: 10vh;
-}    
-
-.anuncio1 a{
-    color: white;
-    position: absolute;
-    padding: 25px 27px;
-    
-    font-weight: bold;
-}
-.anuncio2{
-    background-color: #4A75C5;
-    margin-top: 5%;
-    height: 10vh;
-}    
-
-.anuncio2 a{
-    color: white;
-    position: absolute;
-    
-    
-    font-weight: bold;
-    
-    padding: 18px 6px;
-}    
-    
-   
-
-.anuncio2 p{
-    font-weight: normal;
-    font-size: 12px;
-}
-.anuncio3{
-    margin-top: 5%;
-    background-color: #403E36;
-    height: 10vh;
-    
-}
-.anuncio3 a{
-   
-    color: #FFC33E;
-    position: absolute;
-    padding: 17px 22px;
-    font-weight: bold;
-}    
-
-   
-
-.anuncio3 p{
-    font-weight: normal;
-    font-size: small;
-    color: #FFC33E;
-   
-}
-.anuncio4{
-    margin-top: 5%;
-    height: 29vh;
-    
-}   
-#whats-img{
-    
-    
-    width: 100%;
-    
-}
-
-
-
-
-
-
-
-/*---------------------------------------------ARTICLE*/
-
- article{
-    display: none;
-    width: 100%;
-    margin: auto;
-    height: 40vh;
-    
-}   
-
-
-.artigos{
-    
-    margin: auto;
-    height: 30vh;
-  
-    
-}    
-
- 
-
-.clientes{
-   
-    
-    text-align: center;
-   
-}    
-
-.clientes p{
-    font-size: 2em;
-    height: 10vh;
-    color: #3E3E3E;
-}
-
-
-
+        .pro-txt p{
+          
+            width: 100%;
+           
+            margin-left: 2%;
+            font-size: 10px;
+        }
+        #txt{
+            font-weight: bold;
+            font-size: 11px;
+        }
+        #preco{
+            font-weight: bold;
+            color: #4A75C5;
+            
+        }
+        #adesivo{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #agenda{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #avental{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #banner{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #bolsa{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #bone{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        
+        #caixa{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #c-visita{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #cardapio{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #folder{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #flyer{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        #silk{
+            background-color:#4A75C5 ;
+            color: black;
+        }
+        /*---------------------------------------------ARTICLE*/
+        
+        article{
+            width: 100%;
+            margin: auto;
+            height: 25vh;
+         
+        }   
+        
+        
+        .artigos{
+            
+            margin: auto;
+            height: 30vh;
+          
+            
+        }    
+        
+         
+        
+        .clientes{
+           
+            
+            text-align: center;
+           
+        }    
+        
+        .clientes p{
+            font-size: 1.2em;
+            height: 10vh;
+            color: #3E3E3E;
+        }
+        .clientes img{
+            width: 100%;
+        }
+        
+        
+        
         /*---------------------------------------------FOOTER*/
         footer{
         

@@ -166,7 +166,7 @@ transition: 0.3s;
 }
 
 .apresen-foto{
-   
+   overflow-x: hidden;
     width: 100%;
     display: flex;
     justify-content: center;

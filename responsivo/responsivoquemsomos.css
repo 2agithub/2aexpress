@@ -76,6 +76,12 @@
                 z-index: 1000;
               }
 
+              ::-webkit-scrollbar{
+                display: none;
+              }
+              *{
+                scrollbar-width: none;
+              }
               
             
               .nav-list {
@@ -115,7 +121,7 @@
             
               .nav.active .nav-list a {
                 opacity: 1;
-                z-index: 1000;
+                
               }
             
               .nav.active .hamburger {
@@ -123,18 +129,18 @@
                 top: 36px;
                 right: 16px;
                 border-top-color: transparent;
-                z-index: 1000;
+                
               }
             
               .nav.active .hamburger::before {
                 transform: rotate(135deg);
-                z-index: 1000;
+                
               }
             
               .nav.active .hamburger::after {
                 transform: rotate(-135deg);
                 top: -7px;
-                z-index: 1000;
+                
               }
 
 

@@ -10,7 +10,9 @@
         body, html{
             width: 100%;
             background-color: #F9F9F9;
-        
+            overflow-y: hidden;
+            
+           
         }
 
         /*---------------------------------------------HEADER*/
@@ -54,6 +56,7 @@
     background: none;
     border-top: 3px solid #fff;
     cursor: pointer;
+    overflow-y: hidden;
   }
   
   .hamburger::after,
@@ -72,16 +75,11 @@
 
             .hamburger {
                 display: block;
-                
+                overflow-y: hidden;
                 z-index: 1000;
               }
 
-              ::-webkit-scrollbar{
-                display: none;
-              }
-              *{
-                scrollbar-width: none;
-              }
+             
               
             
               .nav-list {

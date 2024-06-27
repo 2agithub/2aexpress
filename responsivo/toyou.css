@@ -16,7 +16,7 @@
         /*---------------------------------------------HEADER*/
 
         .header{
-            background-color: #4a75c5;
+            background-color: #111A29;
             padding-inline: 16px; /* se refere a left e right*/
         }
         
@@ -154,7 +154,8 @@ main{
     width: 93%;
     margin: auto;
     display: flex;
-   
+    height: 370vh;
+  
 }    
 
 .main-principal{
@@ -190,7 +191,7 @@ main{
     width: 100%;
    font-size: 1.7em;
    margin-bottom: 15%;
-   margin-top: 20%;
+   margin-top: 10%;
    transform: translateY(300%);
     
 }

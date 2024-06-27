@@ -18,7 +18,7 @@
 
       
         .header{
-            background-color: #4a75c5;
+            background-color: #111A29;
             padding-inline: 16px; /* se refere a left e right*/
         }
         
@@ -154,7 +154,7 @@
             
             width: 93%;
             margin: auto;
-            margin-top: 20%;
+            margin-top: 10%;
             height: 70vh;
             
         }    

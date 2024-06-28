@@ -300,16 +300,16 @@ main{
 
 .main-principal{
     
-  
-    height: 40vh;
+   
+    height: 80vh;
     margin-left: 1%;
     
    
 }
 .conteiner{
     margin-top: 1%;
-    
-    height: 30vh;
+  
+   
     
 }
 .em-destaque{
@@ -332,7 +332,7 @@ main{
 }
 
 .cardprinc-top{
-    
+    height: 30vh;
     width: 155%;
     height: 40vh;
     display: flex;

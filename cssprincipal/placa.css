@@ -15,10 +15,10 @@ body, html{
 .vem{
     display: flex;
     justify-content: center;
-    color: white;
+    color: #374957;
     font-size: 12px;
     padding-block: 1%;
-    background-color: #111A29;
+    background-color: #F4F4F4;
 
 }
 #pra{
@@ -27,7 +27,7 @@ body, html{
 }
 
 .header{
-    background-color: #4a75c5;
+    background-color: #fafafa6e;
     width: 100%; /* se refere a left e right*/
     position: fixed;
     z-index: 1111;
@@ -55,7 +55,7 @@ body, html{
 
 .nav-list a{
     font-size: 18px;
-    color: #fff;
+    color: #374957;
  
    text-decoration: none;
    padding-block: 19px;  /* se refere a top e bottom*/
@@ -65,7 +65,7 @@ body, html{
 }
 .nav-list a:hover{
     background-color: #111A29;
-    
+    color: white;
 }
 
 
@@ -88,6 +88,7 @@ body, html{
     position: relative;
     transition: 0.3s;
 }
+
 
 .banner-t{
     

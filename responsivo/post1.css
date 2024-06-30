@@ -155,19 +155,20 @@ main{
     margin: auto;
     display: flex;
    margin-top: 10%;
+  
 }    
 
 .main-principal{
     
     width: 100%;
     height: 430vh;
-   
+  
     display: block;
 }
 .main-topo{
     width: 100%;
   
-  
+   
     justify-content: center;
     align-items: center;
     
@@ -175,7 +176,7 @@ main{
 }
 
 .paragrafo{
-    
+   
    
 }
 
@@ -193,7 +194,7 @@ main{
 .main-noticias{
     display: block;
     height: 320vh;
-   
+    
    
    
    

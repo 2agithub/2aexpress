@@ -9,12 +9,32 @@ body, html{
     background-color: #F9F9F9;
    
 }
+.apresentacao{
+    display: none;
+}
 
 /*---------------------------------------------HEADER*/
+
+.vem{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    padding-block: 1%;
+    background-color: #111A29;
+
+}
+#pra{
+    color: #F3B123;
+    
+}
+
 .header{
     background-color: #4a75c5;
-    padding-inline: 2%;  /* se refere a left e right*/
-   
+    width: 100%; /* se refere a left e right*/
+    position: fixed;
+    z-index: 1111;
+    
 }
 
 .nav{
@@ -22,9 +42,9 @@ body, html{
     justify-content: space-between;
     align-items: center;
     max-width: 1280px;
-    height: 70px;
+    height: 8.3vh;
     margin-inline: auto;
-   
+    
     
 }
 
@@ -32,6 +52,8 @@ body, html{
     display: flex;
     padding-block: 20px;  /* se refere a top e bottom*/
     gap: 10px; 
+  width: 100%;
+  justify-content: center;
     list-style: none;
 }
 
@@ -40,13 +62,13 @@ body, html{
     color: #fff;
  
    text-decoration: none;
-   padding-block: 20px;  /* se refere a top e bottom*/
+   padding-block: 19px;  /* se refere a top e bottom*/
    padding-inline: 30px;
    
   
 }
 .nav-list a:hover{
-    background-color: #333333;
+    background-color: #111A29;
     
 }
 
@@ -71,6 +93,44 @@ body, html{
     transition: 0.3s;
 }
 
+.banner-t{
+    display: none;
+   border: solid red;
+   justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+    
+   
+    
+}
+.carrossel{
+    overflow: hidden;
+    border: solid red;
+  /*  filter: drop-shadow(0px 0px 10px #000);*/
+  
+ 
+    
+    
+}
+.container{
+    border: solid red;
+    display: none;
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+    width: 1250px;
+    margin-top: 9%;
+}
+
+.intro img{
+    display: none;
+}
+
+.cabecalho-menu{
+    display: none;
+}
+
+
 /*---------------------------------------------MAIN*/
 
 main{
@@ -79,6 +139,7 @@ main{
     margin: auto;
     margin-top: 15%;
     height: 80vh;
+    
 }    
     
 
@@ -89,7 +150,7 @@ main{
     margin-left: 1%;
     
 }
-.main-principal, h1{
+.main-principal h1{
     
     color: #3E3E3E;
     margin-top: 10%;
@@ -122,12 +183,8 @@ main{
 
 
 
-
-
-
-
-
 /*---------------------------------------------FOOTER*/
+
 footer{
    
     height: 80vh;

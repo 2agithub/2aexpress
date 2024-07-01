@@ -14,10 +14,34 @@
         }
 
         /*---------------------------------------------HEADER*/
-
+        .vem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:-18%;
+            
+            height: 10.5vh;
+            color: #374957;
+            font-size: 10px;
+           
+            background-color: #f4f4f400;
+           
+            width: 100%;
+          
+        }
+        
+        #pra{
+            color: #F3B123;
+            
+        }
         .header{
-            background-color: #031325;
-            padding-inline: 16px; /* se refere a left e right*/
+            background: linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+            width: 100%; /* se refere a left e right*/
+            position: fixed;
+            z-index: 1111;
         }
         
         .nav {
@@ -164,7 +188,7 @@ main{
     width: 93%;
     margin: auto;
     display: flex;
-    height: 370vh;
+    height: 410vh;
   
 }    
 
@@ -181,14 +205,16 @@ main{
     height: 5vh;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 30%;
     
 }
 
 .topo{
    
-    
+   
+    margin-top: 30%;
     width: 100%;
+    height: 5vh;
     font-size: 2em;
     display: flex;
     margin-left: 20px;
@@ -207,7 +233,7 @@ main{
 }
 .main-noticias{
     display: block;
-    height: 120vh;
+    height: 130vh;
     
     
    

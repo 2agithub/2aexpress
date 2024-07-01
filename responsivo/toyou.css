@@ -75,7 +75,7 @@
     display: none;
     border: none;
     background: none;
-    border-top: 3px solid #fff;
+    border-top: 3px solid black;
     cursor: pointer;
   }
   
@@ -85,7 +85,7 @@
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: black;
     margin-top: 5px;
     position: relative;
     transition: 0.3s;
